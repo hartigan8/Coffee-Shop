@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		361D5E8529089BD10051B76B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 361D5E8429089BD10051B76B /* main.c */; };
+		3633A06B2913D00600F7E6FC /* libpthread.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3633A06A2913CFF500F7E6FC /* libpthread.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		361D5E8129089BD10051B76B /* CinAction */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CinAction; sourceTree = BUILT_PRODUCTS_DIR; };
 		361D5E8429089BD10051B76B /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		3633A06A2913CFF500F7E6FC /* libpthread.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libpthread.tbd; path = usr/lib/libpthread.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3633A06B2913D00600F7E6FC /* libpthread.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +46,7 @@
 			children = (
 				361D5E8329089BD10051B76B /* CinAction */,
 				361D5E8229089BD10051B76B /* Products */,
+				3633A0692913CFF500F7E6FC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +64,14 @@
 				361D5E8429089BD10051B76B /* main.c */,
 			);
 			path = CinAction;
+			sourceTree = "<group>";
+		};
+		3633A0692913CFF500F7E6FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3633A06A2913CFF500F7E6FC /* libpthread.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
